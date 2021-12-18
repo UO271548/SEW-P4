@@ -1,0 +1,78 @@
+/*Especificidad: 001*/
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+/*Especificidad: 001*/
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    
+}
+
+/*Especificidad: 001*/
+h1{
+    font-size: 1.5em;
+    padding: 1.5em;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+
+  /*Especificidad: 011*/
+  h2{
+    color:white;
+    background-color:black;
+    padding: 1em;
+    text-align: left;
+    font-size: 1em;
+    
+  }
+
+  /*Especificidad: 001*/
+  nav{
+      color: white;
+      background-color: black;
+  }
+  /*Especificidad: 002*/
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  /*Especificidad: 003*/
+  nav ul li{
+    display: inline;
+    float: left;
+  }
+
+  /*Especificidad: 004*/
+  nav ul li input{
+    display: block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+/*Especificidad: 001*/
+footer{
+    display: block;
+    color: white;
+    background-color: black;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 1em;
+    font-weight:bold;
+    margin-block-start: 1em;
+
+  }
