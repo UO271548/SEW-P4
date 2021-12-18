@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://localhost/Ejercicio6/Ejercicio6.php# -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="author" content="Ignacio Gómez Gasch">
+    <meta name="descripción" content="Ejercicio 6 - ">   
+    <title>SEW.P4 - Ejercicio 6</title>
+    <link rel="stylesheet" type="text/css" href="./Ejercicio6-15_files/Ejercicio6.css">
+</head>
+
+<body>    
+    <header>
+        <h1>Ejercicio 6</h1>
+    </header>
+    <main>
+            <form action="http://localhost/Ejercicio6/Ejercicio6.php#" method="post" name="operaciones">    
+                <nav>
+                    <ul>
+                        <li><input type="submit" name="cbd" value="Crear Base de Datos"></li>
+                        <li><input type="submit" name="ct" value="Crear Tabla"></li>
+                        <li><input type="submit" name="idt" value="Insertar Datos en la Tabla"></li>
+                        <li><input type="submit" name="bdt" value="Buscar Datos en la Tabla"></li>
+                        <li><input type="submit" name="mdt" value="Modificar Datos de la Tabla"></li>
+                        <li><input type="submit" name="edt" value="Eliminar Datos de la Tabla"></li>
+                        <li><input type="submit" name="gi" value="Generar Informe"></li>
+                        <li><input type="submit" name="cdc" value="Cargar Datos CSV"></li>
+                        <li><input type="submit" name="edc" value="Exportar a CSV"></li>
+                    </ul>
+            
+    </nav></form></main>
+    <p>No se encuentra ningun dato con ese DNI</p>
+            <p>
+            </p><form action="http://localhost/Ejercicio6/Ejercicio6.php#" method="post" name="insertarDato"> 
+            
+                <p>
+                    <label for="dni"> DNI del dato a modificar:</label>
+                    <input type="text" id="dni" name="dniModificar">
+                </p>
+
+                <p>
+                    <label for="nombre"> Nuevo Nombre:</label>
+                    <input type="text" id="nombre" name="nombreModificar">
+                </p>
+
+                <p>
+                    <label for="apellido"> Nuevo Apellido:</label>
+                    <input type="text" id="apellido" name="apellidoModificar">
+                </p>
+
+                <p>
+                    <label for="emailP"> Nuevo Email:</label>
+                    <input type="email" id="emailP" name="emailModificar">
+                </p>
+
+                <p>
+                    <label for="telefono"> Nuevo Telefono:</label>
+                    <input type="text" id="telefono" name="telefonoModificar">
+                </p>
+
+                <p>
+                    <label for="edad"> Nueva Edad:</label>
+                    <input type="text" id="edad" name="edadModificar">
+                </p>
+
+                <p>
+                    <label for="hombre"> Hombre:</label>
+                    <input type="radio" id="hombre" name="sexoModificar" value="M">
+                    <label for="mujer"> Mujer:</label>
+                    <input type="radio" id="mujer" name="sexoModificar" value="F">
+                    <label for="otro"> Otro:</label>
+                    <input type="radio" id="otro" name="sexoModificar" value="O">
+                </p>
+
+                <p>
+                    <label for="nivel"> Nuevo Nivel:</label>
+                    <input type="number" id="nivel" name="nivelModificar">
+                </p>
+
+
+                <p>
+                    <label for="tiempo"> Nuevo Tiempo tardado:</label>
+                    <input type="text" id="tiempo" name="tiempoModificar">
+                </p>
+
+                <p>
+                    <label for="correcto">¿Paso correctamente la prueba?</label>
+                    <input id="correcto" type="checkbox" name="correctoModificar" value="Y">
+                </p>
+
+                <p>
+                    <label for="comentarios"> Nuevos Comentarios:</label>
+                    <input type="text" id="comentarios" name="comentariosModificar">
+                </p>
+
+                <p>
+                    <label for="propuestas"> Nuevas Propuestas:</label>
+                    <input type="text" id="propuestas" name="propuestasModificar">
+                </p>
+
+                <p>
+                    <label for="valoracion"> Nueva Valoracion:</label>
+                    <input type="number" id="valoracion" name="valoracionModificar">
+                </p>
+
+
+                <input type="submit" name="mdb" value="Modificar Dato">
+            </form>
+            <p></p>
+                
+                    <footer>
+            <p>Gómez Gasch Ignacio - UO271548</p>
+        </footer>
+
+</body></html>
